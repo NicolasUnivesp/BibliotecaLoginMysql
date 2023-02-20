@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "sistema3",
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': '',
+        'NAME': "nicolasQueiroz$sistema3",
+        'HOST': 'nicolasQueiroz.mysql.pythonanywhere-services.com',
+        'USER': 'nicolasQueiroz',
+        'PASSWORD': 'meuovo2020',
         'PORT': '3306',
         'OPTIONS': {
             'init_command': 'SET default_storage_engine=InnoDB',
