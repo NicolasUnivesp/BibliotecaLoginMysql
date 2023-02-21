@@ -5,4 +5,4 @@ from app.models import Livros
 class LivrosForm(ModelForm):
     class Meta:
         model = Livros
-        fields = ['titulo', 'autor', 'quantidade', 'disponivel']
+        fields = ['titulo', 'autor', 'quantidade', 'disponivel', 'observacoes']
